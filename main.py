@@ -1,5 +1,8 @@
+from greeter import Greeter
+
 def start():
-    pass
+    g = Greeter()
+    print(g.greet())
 
 if __name__ == '__main__':
     start()
